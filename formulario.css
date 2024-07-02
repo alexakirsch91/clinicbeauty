@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header { 
+    justify-content: space-between;
+    background-color: #75f1cc; 
+    padding: 20px; 
+    text-align: center;
+    color: #fff; 
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+#titulo{
+    font-family: sans-serif;
+    color: rgb(79, 79, 80);
+    margin-left: 7%;
+}
+#subtitulo{
+    font-family: sans-serif;
+    color: rgb(79, 79, 80);
+    margin-left: 10%;
+}
+
+fieldset{
+    border: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li { 
+    display: inline; 
+    margin-right: 20px; 
+} 
+
+nav ul li a { 
+    text-decoration: none; 
+    color: #fff; 
+}
+
+body{
+    background-color: aqua;
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    padding: 0; 
+    font-size: 1em;
+    color: rgb(79, 79, 80);
+    margin-left: 10%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
+
+.botao {
+    font-size: 1.2em;
+    background-color: aliceblue;
+    margin-bottom: 1em;
+    color: #43dbc2;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px pink;
+    text-shadow: 1px 1px 1px blue;
+    position: fixed;
+    top: 90%;
+    left: 35%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#check{
+    display: inline-block;
+}
